@@ -1,0 +1,109 @@
+{
+    "id": "fc029b4d-0cdd-4e66-a310-728af85a7dce",
+    "appId": "6d0c1b1b-49c2-4cd5-a9c7-54f32e98ba2e",
+    "name": "Microsoft-Teams-Projektseminar-local",
+    "accessTokenAcceptedVersion": 2,
+    "signInAudience": "AzureADMyOrg",
+    "optionalClaims": {
+        "idToken": [],
+        "accessToken": [
+            {
+                "name": "idtyp",
+                "source": null,
+                "essential": false,
+                "additionalProperties": []
+            }
+        ],
+        "saml2Token": []
+    },
+    "requiredResourceAccess": [
+        {
+            "resourceAppId": "00000003-0000-0000-c000-000000000000",
+            "resourceAccess": [
+                {
+                    "id": "e1fe6dd8-ba31-4d61-89e7-88639da4683d",
+                    "type": "Scope"
+                }
+            ]
+        }
+    ],
+    "oauth2Permissions": [
+        {
+            "adminConsentDescription": "Allows Teams to call the app's web APIs as the current user.",
+            "adminConsentDisplayName": "Teams can access app's web APIs",
+            "id": "9b8cbb8e-3a81-4669-aba3-b18e0785f18e",
+            "isEnabled": true,
+            "type": "User",
+            "userConsentDescription": "Enable Teams to call this app's web APIs with the same rights that you have",
+            "userConsentDisplayName": "Teams can access app's web APIs and make requests on your behalf",
+            "value": "access_as_user"
+        }
+    ],
+    "preAuthorizedApplications": [
+        {
+            "appId": "1fec8e78-bce4-4aaf-ab1b-5451cc387264",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "5e3ce6c0-2b1f-4285-8d4b-75ee78787346",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "d3590ed6-52b3-4102-aeff-aad2292ab01c",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "00000002-0000-0ff1-ce00-000000000000",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "bc59ab01-8403-45c6-8796-ac3ef710b3e3",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "0ec893e0-5785-4de6-99da-4ed124e5296c",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "4765445b-32c6-49b0-83e6-1d93765276ca",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        },
+        {
+            "appId": "4345a7b9-9a63-4910-a426-35363201d503",
+            "permissionIds": [
+                "9b8cbb8e-3a81-4669-aba3-b18e0785f18e"
+            ]
+        }
+    ],
+    "identifierUris": [
+        "api://localhost:53000/6d0c1b1b-49c2-4cd5-a9c7-54f32e98ba2e"
+    ],
+    "replyUrlsWithType": [
+        {
+            "url": "https://localhost:53000/auth-end.html",
+            "type": "Web"
+        },
+        {
+            "url": "https://localhost:53000/auth-end.html?clientId=6d0c1b1b-49c2-4cd5-a9c7-54f32e98ba2e",
+            "type": "Spa"
+        },
+        {
+            "url": "https://localhost:53000/blank-auth-end.html",
+            "type": "Spa"
+        }
+    ]
+}
